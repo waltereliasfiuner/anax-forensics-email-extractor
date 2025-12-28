@@ -17,3 +17,28 @@ Herramienta de nivel pericial diseñada para la extracción automatizada de corr
 ├── .gitignore              # Archivo de exclusión de evidencia
 ├── README.md               # Documentación oficial
 └── requirements.txt        # Dependencias (xhtml2pdf)
+```
+
+## Requisitos e Instalación
+
+1. **Python 3.x**
+2. Instalar las dependencias necesarias:
+   ```bash
+   pip install xhtml2pdf
+   ```
+
+## Uso
+
+1. Coloque su archivo `Inbox` (formato Mbox) en la raíz del proyecto.
+2. Ejecute el script:
+   ```bash
+   python extract_to_pdf.py
+   ```
+3. Los resultados se encontrarán en la carpeta `anax_extraction_result/`, organizados por correos y adjuntos.
+
+## Consideraciones de Seguridad Forense
+
+Este script ha sido diseñado para no modificar el archivo origen (`Mbox`). Sin embargo, se recomienda trabajar siempre sobre una **copia de trabajo** y no sobre la evidencia original directamente.
+
+---
+*Parte de la suite Anax Forensics - Preservando la integridad digital.*
