@@ -1,17 +1,17 @@
-Ignorar entornos virtuales
-
+# Ignorar entornos virtuales
 venv/
 .env
+forense_env/
 
-Ignorar archivos de evidencia y resultados (CRÍTICO para privacidad)
-
+# Ignorar archivos de evidencia y resultados (CRÍTICO para privacidad)
+anax_extraction_result/
 extraccion_forense_email/
 Inbox
 *.mbox
 *.pdf
 *.html
 
-Ignorar carpetas de sistema y caché
-
-pycache/
+# Ignorar carpetas de sistema y caché
+__pycache__/
 .DS_Store
+*.pyc
