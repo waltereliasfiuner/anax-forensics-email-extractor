@@ -1,0 +1,17 @@
+Ignorar entornos virtuales
+
+venv/
+.env
+
+Ignorar archivos de evidencia y resultados (CRÍTICO para privacidad)
+
+extraccion_forense_email/
+Inbox
+*.mbox
+*.pdf
+*.html
+
+Ignorar carpetas de sistema y caché
+
+pycache/
+.DS_Store
