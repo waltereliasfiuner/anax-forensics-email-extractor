@@ -32,7 +32,7 @@ Herramienta de nivel pericial diseñada para la extracción automatizada de corr
 1. Coloque su archivo `Inbox` (formato Mbox) en la raíz del proyecto.
 2. Ejecute el script:
    ```bash
-   python extract_to_pdf.py
+   python afee.py
    ```
 3. Los resultados se encontrarán en la carpeta `anax_extraction_result/`, organizados por correos y adjuntos.
 
