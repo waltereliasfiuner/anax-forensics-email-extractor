@@ -1,6 +1,6 @@
 # Anax Forensics Email Extractor
 
-Herramienta de nivel pericial diseñada para la extracción automatizada de correos electrónicos desde contenedores Mbox, convirtiéndolos en documentos PDF con preservación de metadatos, gestión de imágenes incrustadas (CID) y validación de integridad mediante hashing SHA-256.
+Herramientas de nivel pericial diseñada para la extracción automatizada de correos electrónicos desde contenedores Mbox, convirtiéndolos en documentos PDF con preservación de metadatos, gestión de imágenes incrustadas (CID) y validación de integridad mediante hashing SHA-256.
 
 ## Características principales
 
@@ -13,7 +13,8 @@ Herramienta de nivel pericial diseñada para la extracción automatizada de corr
 
 ```text
 .
-├── afee.py       # Script principal (Anax Forensics)
+├── afee.py                 # Script principal (Anax Forensics)
+├── cutpdf.py               # Fragmentador inteligente de PDFs (Anax Forensics)
 ├── .gitignore              # Archivo de exclusión de evidencia
 ├── README.md               # Documentación oficial
 └── requirements.txt        # Dependencias (xhtml2pdf)
